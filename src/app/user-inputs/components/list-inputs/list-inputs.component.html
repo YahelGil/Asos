@@ -1,0 +1,5 @@
+<div class="list-view" *ngFor="let wordAssosiation of wordAssosiations">
+  <app-points class="point" [points]="wordAssosiation.points"></app-points>
+  <div class="word">{{wordAssosiation.word}}</div>
+</div>
+<app-word-input (assosiationToAdd)="addToList($event)"></app-word-input>

@@ -1,0 +1,12 @@
+.input-size {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.point {
+}
+
+.input {
+  height: 30px;
+  background-color: darkorchid;
+}
